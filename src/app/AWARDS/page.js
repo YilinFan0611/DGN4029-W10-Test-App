@@ -1,27 +1,23 @@
 "use client";
 import TopNav from "../components/topNav";
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax } from "react-scroll-parallax";
 import Image from "next/image";
 import ContactCard from "../components/contactCard";
 
 export default function AWARDS() {
   return (
-
     <div>
-      <TopNav/>
+      <TopNav />
       <div className="fixed w-full h-full top-0 left-0 -z-10">
-        <Image 
-          src="/imgs/BG.png" 
-          alt="bg" 
-          fill
-          objectFit="cover"
-        />
+        <Image src="/imgs/BG.png" alt="bg" fill objectFit="cover" />
       </div>
-     
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 px-8 py-12 justify-between">
         {/* 2005-2008 */}
         <Parallax speed={20} className="flex flex-col justify-start mt-24">
-          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">2005-2008</h1>
+          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">
+            2005-2008
+          </h1>
           {/* 2005 */}
           <div className="flex flex-col gap-4 justify-start items-start my-8">
             <h2 className="text-[36px] md:text-[48px] font-sans font-extrabold tracking-tighter text-[#F7F4ED]/60">
@@ -80,7 +76,9 @@ export default function AWARDS() {
 
         {/* 2009-2012 */}
         <Parallax speed={1} className="flex flex-col justify-start mt-24">
-          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">2009-2012</h1>
+          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">
+            2009-2012
+          </h1>
           {/* 2009 */}
           <div className="flex flex-col gap-4 justify-start items-start my-8">
             <h2 className="text-[36px] md:text-[48px] font-sans font-extrabold tracking-tighter text-[#F7F4ED]/60">
@@ -175,7 +173,9 @@ export default function AWARDS() {
 
         {/* 2013-2017 */}
         <Parallax speed={-10} className="flex flex-col justify-start mt-24">
-          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">2013-2017</h1>
+          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">
+            2013-2017
+          </h1>
           {/* 2013 */}
           <div className="flex flex-col gap-4 justify-start items-start my-8">
             <h2 className="text-[36px] md:text-[48px] font-sans font-extrabold tracking-tighter text-[#F7F4ED]/60">
@@ -233,8 +233,14 @@ export default function AWARDS() {
         </Parallax>
 
         {/* 2018-2024 */}
-        <Parallax speed={20} translateY={[0, 40]} className="flex flex-col justify-start mt-24">
-          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">2018-2024</h1>
+        <Parallax
+          speed={20}
+          translateY={[0, 40]}
+          className="flex flex-col justify-start mt-24"
+        >
+          <h1 className="text-[72px] lg:text-[96px] font-sans font-extrabold text-transparent text-stroke">
+            2018-2024
+          </h1>
           {/* 2018 */}
           <div className="flex flex-col gap-4 justify-start items-start my-8">
             <h2 className="text-[36px] md:text-[48px] font-sans font-extrabold tracking-tighter text-[#F7F4ED]/60">
@@ -257,6 +263,5 @@ export default function AWARDS() {
       </div>
       <ContactCard />
     </div>
-    
   );
 }
