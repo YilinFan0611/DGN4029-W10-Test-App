@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import ContactCard from "./components/contactCard";
 
 
-export default function home() {
+export default function Home() {
 
   const [vh, setVh] = useState(100);
 
@@ -1386,8 +1386,6 @@ export default function home() {
           </div>
           
         </div>
-
-
         {/* footer */}
         {/* Footer（贴在页面末尾） */}
         <ContactCard />
