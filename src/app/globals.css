@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --background: #111111;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-robotoCondensed);
+  --font-deco: var(--font-amaticSC);
+  --font-mono: var(--font-geist-mono);
+  --font-HK: var(--font-notoSerifHK);
+  --animate-arrow-bounce: arrow-bounce 1.4s ease-in-out infinite;
+  --animate-avatarFadeInUp: avatarFadeInUp 1s ease-in-out forwards;
+  --animate-letterIn: letterIn 2s cubic-bezier(0.22,1,0.36,1) forwards;
+  --animate-textInLTR: textInLTR 2s cubic-bezier(0.22,1,0.36,1) forwards;
+  --animate-textInRTL: textInRTL 2s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111111;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #F7F4ED;
+}
+
+@keyframes arrow-bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(6px); }
+  60% { transform: translateY(3px); }
+}
+
+@keyframes avatarFadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes letterIn {
+  0% {
+    transform: translateY(28px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes textInLTR {
+  0% {
+    transform: translateX(-56px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes textInRTL {
+  0% {
+    transform: translateX(56px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
