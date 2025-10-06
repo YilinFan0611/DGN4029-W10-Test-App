@@ -31,7 +31,7 @@ export default function AWARDS() {
               Metro Radio Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
           </div>
           {/* 2006 */}
@@ -46,7 +46,7 @@ export default function AWARDS() {
               IFPI Hong Kong Music Sales Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               RoadShow Music Awards
@@ -70,7 +70,7 @@ export default function AWARDS() {
               2008
             </h2>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               10th Mnet KM Music Festival
@@ -96,7 +96,7 @@ export default function AWARDS() {
               Metro Radio Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               RTHK's Top Ten Chinese Songs Music Awards
@@ -117,7 +117,7 @@ export default function AWARDS() {
               Metro Radio Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               RTHK's Top Ten Chinese Songs Music Awards
@@ -144,7 +144,7 @@ export default function AWARDS() {
               Yahoo! Asia Buzz Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               Sina Music Awards
@@ -165,7 +165,7 @@ export default function AWARDS() {
               Sina Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               RTHK's Top Ten Chinese Songs Music Awards
@@ -194,7 +194,7 @@ export default function AWARDS() {
               Hito Pop Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              CRHK's Ultimate Song Chart Awards Presentation
+              CRHKs Ultimate Song Chart Awards Presentation
             </p>
           </div>
           {/* 2015 */}
