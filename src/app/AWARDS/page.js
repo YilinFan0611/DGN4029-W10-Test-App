@@ -97,7 +97,7 @@ export default function AWARDS() {
               CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
           </div>
           {/* 2010 */}
@@ -118,7 +118,7 @@ export default function AWARDS() {
               CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
               Yahoo! Asia Buzz Awards
@@ -148,7 +148,7 @@ export default function AWARDS() {
               Sina Music Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
           </div>
           {/* 2012 */}
@@ -166,7 +166,7 @@ export default function AWARDS() {
               CRHKs Ultimate Song Chart Awards Presentation
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
           </div>
         </Parallax>
@@ -182,7 +182,7 @@ export default function AWARDS() {
               2013
             </h2>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
           </div>
           {/* 2014 */}
@@ -215,7 +215,7 @@ export default function AWARDS() {
               Asia Artist Awards
             </p>
             <p className="text-[16px] md:text-[24px] font-HK font-light text-[#F7F4ED]/80">
-              RTHK's Top Ten Chinese Songs Music Awards
+              RTHKs Top Ten Chinese Songs Music Awards
             </p>
           </div>
           {/* 2017 */}
